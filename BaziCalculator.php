@@ -24,47 +24,47 @@ class BaziCalculator
 			case [$this->day < 4 , $this->month == 2]:
 				echo "Yin Earth <br /> Ox";
 				break;
-			case [$this->day >= 4 , $this->month == 2]://feb
+			case [$this->day >= 4 , $this->month == 2]:
 			case [$this->day < 5 || $this->day > 31 , $this->month == 3]:
 				echo "Yang Metal <br /> Tiger";
 				break;
-			case [$this->day >= 5, $this->month == 3]://mart
+			case [$this->day >= 5, $this->month == 3]:
 			case [$this->day < 4 || $this->day > 31, $this->month == 4]:
 			    echo"Yin Metal <br /> Rabbit";
 			    break;
-			case [$this->day >= 4, $this->month == 4]://april
+			case [$this->day >= 4, $this->month == 4]:
 			case [$this->day < 5 || $this->day > 31, $this->month == 5]:
 			    echo"Yang Water <br /> Dragon";
 			    break;
-			case [$this->day >= 5, $this->month == 5]://maj
+			case [$this->day >= 5, $this->month == 5]:
 			case [$this->day < 5 || $this->day > 31, $this->month == 6]:
 			    echo"Yin Water <br /> Snake";
 			    break;
-			case [$this->day >= 5, $this->month == 6]://jun
+			case [$this->day >= 5, $this->month == 6]:
 			case [$this->day < 7 || $this->day > 31, $this->month == 7]:
 			    echo"Yang Wood <br /> Horse";
 			    break;
-			case [$this->day >= 7, $this->month == 7]://jul
+			case [$this->day >= 7, $this->month == 7]:
 			case [$this->day < 7 || $this->day > 31, $this->month == 8]:
 			    echo"Yin Wood <br /> Goat";
 			    break;
-			case [$this->day >= 7, $this->month == 8]://august
+			case [$this->day >= 7, $this->month == 8]:
 			case [$this->day < 7 || $this->day > 31, $this->month == 9]:
 			    echo"Yang Fire <br /> Monkey";
 			    break;
-			case [$this->day >= 7, $this->month == 9]://september
+			case [$this->day >= 7, $this->month == 9]:
 			case [$this->day < 8 || $this->day > 31, $this->month == 10]:
 			    echo"Yin Fire <br /> Rooster";
 			    break;
-			case [$this->day >= 8, $this->month == 10]://oktobar
+			case [$this->day >= 8, $this->month == 10]:
 			case [$this->day < 7 || $this->day > 31, $this->month == 11]:
 			    echo"Yang Earth <br /> Dog";
 			    break;
-			case [$this->day >= 7, $this->month == 11]://novembar
+			case [$this->day >= 7, $this->month == 11]:
 			case [$this->day <  7 || $this->day > 31, $this->month == 12]:
 			    echo"Yin Earth <br /> Pig";
 			    break;
-		    case [$this->day >= 7, $this->month == 12]://decembar
+		    case [$this->day >= 7, $this->month == 12]:
 			    echo"Yang Metal <br /> Rat";
 			    break;
 			default:
