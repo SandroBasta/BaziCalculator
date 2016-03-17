@@ -1,6 +1,6 @@
 <?php
 /*
-* @Sandro Basta
+* @SandroBasta
 * @BaZi Calculator
 */
 class BaziCalculator
@@ -13,7 +13,6 @@ class BaziCalculator
 		$this->day = $day;
 		$this->month = $month;
 	}
-
 	public function calculateMonth(){
 
 		switch ([$this->day,$this->month]) {
@@ -72,7 +71,6 @@ class BaziCalculator
 				break;
 		}
 	}
-
 	public function caclculateDay(){
 
 	   $arrayElement = array('1'=>'Yang Wood',
